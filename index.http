@@ -1,0 +1,75 @@
+POST http://localhost:3000/user-login
+Content-type: application/json
+
+{
+    "array":[
+    {
+        "id": 1,
+        "email":"nikhil@gmail.com",
+        "password":"nikhi#123"
+    },
+    {
+        "id":2,
+        "email":"rahul@gmail.com",
+        "password":"rahul#123"
+    },
+    {
+        "id":4,
+        "email":"aman@gmail.com",
+        "password":"aman#123"
+    }
+    ]
+}
+
+### 
+
+POST http://localhost:3000/technician-login
+Content-type: application/json
+
+{
+    "array":[
+    {
+        "id": 1,
+        "email":"ansh@gmail.com",
+        "password":"aman#123",
+        "business_name":"TechBiz"
+    },
+    {
+        "id":2,
+        "email":"pooja@gmail.com",
+        "password":"pooja#123",
+        "business_name":"TechBiz One"
+    }
+    ]
+}
+
+###
+
+DELETE http://localhost:3000/techniciandelete
+Content-type: application/json
+
+{
+    "email":"aman@gmail.com"
+}
+
+
+### 
+
+POST http://localhost:3000/userlogin
+Content-type: application/json
+
+{
+    "email":"aman@gmail.com",
+    "password":"aman#123"
+}
+
+
+###
+
+POST  http://localhost:3000/technicianlogin
+Content-type: application/json
+
+{
+    "email":"ansh@gmail.com",
+    "password":"aman#123"
+}
